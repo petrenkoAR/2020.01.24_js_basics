@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Special site</title>
+    <style media="screen">
+      h1 {
+        max-width: 80vw;
+        font-size: 9vw;
+        font-family: sans-serif;
+      }
+      #userName {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      This site is made special for you,
+      <span id="userName"></span>
+    </h1>
+    <script>
+      let name = prompt("What is you name?")
+      document.getElementById("userName").textContent = name 
+    </script>
+  </body>
+</html>
