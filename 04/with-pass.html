@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Pass by password</title>
+  </head>
+  <body>
+    <h1>Totally secret</h1>
+    <p>
+      Password <input id="passInput" type="text">
+    </p>
+    <a href="secret.html" onclick="return checkPass()">Enter</a>
+    <script>
+      function checkPass() {
+        let pass = document.getElementById('passInput'.value)
+        if (pass === '0000') {
+          return true
+        }
+        alert('Wrong password')
+        return false
+      }
+    </script>
+  </body>
+</html>
