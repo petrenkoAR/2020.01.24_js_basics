@@ -2,6 +2,7 @@ function reset() {
   window.location.reload()
 }
 let box = document.querySelector(".box")
+box.style.backgroundColor = 'red'
 
 function paintItBlack() {
   box.style.backgroundColor = 'black'
@@ -17,5 +18,7 @@ function move() {
 }
 
 function makeBlinking() {
+  let bgColor = box.style.backgroundColor
   
+
 }
