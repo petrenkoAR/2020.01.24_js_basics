@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Akronim|Bowlby+One+SC|Bungee+Inline|Bungee+Shade|Finger+Paint|Libre+Barcode+39|Modak|Monoton&display=swap');
+
 body {
   margin: 0;
 }
@@ -5,4 +7,9 @@ body {
 div {
   position: fixed;
   transition: 400ms all ease;
+  will-change: transform, width, height, rotate;
+}
+
+p {
+  position: fixed;
 }
