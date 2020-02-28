@@ -27,7 +27,7 @@ let box2Animation = anime({
   translateX: '80vw',
   rotate: '+=10turn',
   easing: 'linear',
-  autoplay: false
+  autoplay: false,
 })
 let section3 = document.querySelector('#section-3')
 new ScrollMagic.Scene({
