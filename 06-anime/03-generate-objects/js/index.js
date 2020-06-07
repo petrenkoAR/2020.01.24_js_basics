@@ -1,4 +1,4 @@
-let numberOfRects = 10
+let numberOfRects = 30
 //let count = 0
 //while (count < numberOfRects) {
 //  let rect = document.createElement('div')
